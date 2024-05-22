@@ -1,6 +1,6 @@
-Images
-Images/Geography
-Images/Geography/1003.jpg
+
+
+expressions=(Images/Geography/1003.jpg
 Images/Geography/1004.jpg
 Images/Geography/1006.jpg
 Images/Geography/1007.jpg
@@ -2603,4 +2603,7 @@ Images/Geography/14600.jpg
 Images/Geography/14602.jpg
 Images/Geography/14738.jpg
 Images/Geography/14740.jpg
-Images/Geography/14791.jpg
+Images/Geography/14791.jpg)
+printf "%s\n" "${expressions[@]}" | shuf -n1
+
+
